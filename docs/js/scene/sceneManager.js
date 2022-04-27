@@ -5,7 +5,6 @@ const SceneManager = (function() {
     let currentScene = new Scene($app);
 
     $window.keydown(function(e) {
-        console.log(e.key);
         return currentScene.keydown(e.key);
     });
 
