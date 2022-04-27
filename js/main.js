@@ -1,0 +1,2 @@
+
+SceneManager.start(GameStartScene);
